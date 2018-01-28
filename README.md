@@ -1,0 +1,2 @@
+# SagynbekBekzat.github.io
+site
