@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js" defer></script>
+    <script src="char_js.js" defer></script>
+    <script src="js.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Привет</h1>
+        <h3>Сколько тестов?</h3>
+        <input type="button" value="добавить" onclick="HowMuchTest()">
+        <input type="button" value="считать" onclick="point_function()">
+        <input type="button" value="сохранить" onclick="save()">
+        <span id="testes" display="none">0</span>
+        <table>
+            <tr id="mainLine">
+                <td>name</td>
+                <td class="point">Орташа балы</td>
+            </tr>
+            <tr class="line">
+                <td>Ryslan</td>
+                <td class="point"></td>
+            </tr>
+            <tr class="line">
+                <td>Merei</td>
+                <td class="point"></td>
+            </tr>
+            <tr class="line">
+                <td>Saken</td>
+                <td class="point"></td>
+            </tr>
+        </table>
+       <input type="button" value="1.ryslan" onclick="Ryslan()" id="s_ryslan">
+        <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
+    </center>
+</body>
+</html>

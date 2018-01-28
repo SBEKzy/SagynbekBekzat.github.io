@@ -1,0 +1,53 @@
+
+/*table  */
+table {
+    border-collapse: collapse;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+td {
+    padding:5px;
+    margin: 5px;
+}
+
+#mainLine td:first-child {
+    background-color: rgba(150,255,140,0.4);
+}
+
+#mainLine td{
+    background-color: rgba(150,255,140,0.4);
+}
+
+#mainLine input{
+    width: 140px;
+    font-size: 15px;
+}
+
+td input{
+    border-radius: 5px;
+    width: 70px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+
+tr:hover {
+    background-color: rgba(150,255,140,0.4);
+}
+
+td input:hover {
+    border-color: rgb(150,255,140);
+}
+
+/*    < /table>      */
+
+input[type="button"] {
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 25px;
+}
