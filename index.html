@@ -12,32 +12,85 @@
 </head>
 <body>
     <center>
-        <h1>Привет</h1>
-        <h3>Сколько тестов?</h3>
-        <input type="button" value="добавить" onclick="HowMuchTest()">
-        <input type="button" value="считать" onclick="point_function()">
-        <input type="button" value="сохранить" onclick="save()">
-        <span id="testes" display="none">0</span>
-        <table>
-            <tr id="mainLine">
-                <td>name</td>
-                <td class="point">Орташа балы</td>
-            </tr>
-            <tr class="line">
-                <td>Ryslan</td>
-                <td class="point"></td>
-            </tr>
-            <tr class="line">
-                <td>Merei</td>
-                <td class="point"></td>
-            </tr>
-            <tr class="line">
-                <td>Saken</td>
-                <td class="point"></td>
-            </tr>
-        </table>
-       <input type="button" value="1.ryslan" onclick="Ryslan()" id="s_ryslan">
-        <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
+        <section class="students_table">
+            <input type="button" value="добавить" onclick="HowMuchTest()">
+            <input type="button" value="считать" onclick="point_function()">
+            <input type="button" value="сохранить" onclick="save()">
+            <span id="testes" display="none">0</span>
+            <table>
+                <tr id="mainLine">
+                    <td>name</td>
+                    <td class="point">Орташа балы</td>
+                </tr>
+                <tr class="line">
+                    <td>Адилов Р.</td>
+                    <td class="point"></td>
+                </tr>
+                <tr class="line">
+                    <td>Азимбек Л. С.</td>
+                    <td class="point"></td>
+                </tr>
+                <tr class="line">
+                    <td>Есімбек А. Ә.</td>
+                    <td class="point"></td>
+                </tr>
+                <tr class="line">
+                    <td>Кайрат Л. </td>
+                    <td class="point"></td>
+                </tr>
+                <tr class="line">
+                    <td>Маданбек К. </td>
+                    <td class="point"></td>
+                </tr>
+                <tr class="line">
+                    <td>Маратова Р. С.</td>
+                    <td class="point"></td>
+                </tr>
+                <tr class="line">
+                    <td>Тоқмаханбет</td>
+                    <td class="point"></td>
+                </tr>
+                <tr class="line">
+                    <td>MШайхов Р. С.</td>
+                    <td class="point"></td>
+                </tr>
+                <tr class="line">
+                    <td>Қуанышұлы Б. </td>
+                    <td class="point"></td>
+                </tr>
+                <tr class="line">
+                    <td>Құдайберген Д.     </td>
+                    <td class="point"></td>
+                </tr>
+            </table>
+        </section>
+        <section class="diagramme-section">
+            <div class="diagramme_button_section">
+                <div class="students_btn">
+                    <input type="button" value="ryslan" onclick="Diagramme_show_button(1)" class="s">
+                    <input type="button" value="merei" onclick="Diagramme_show_button(2)" class="s">
+                    <input type="button" value="arnai" onclick="Diagramme_show_button(3)" class="s">
+                    <input type="button" value="kairat" onclick="Diagramme_show_button(4)" class="s">
+                    <input type="button" value="kyanish" onclick="Diagramme_show_button(5)" class="s">
+                    <input type="button" value="maratova" onclick="Diagramme_show_button(6)" class="s">
+                    <input type="button" value="tok" onclick="Diagramme_show_button(7)" class="s">
+                    <input type="button" value="saken" onclick="Diagramme_show_button(8)" class="s">
+                    <input type="button" value="beks" onclick="Diagramme_show_button(9)" class="s">
+                    <input type="button" value="eldos" onclick="Diagramme_show_button(10)" class="s">
+                </div>
+                <div id="columnchart_material" style="width: 800px; height: 500px;flex-grow: 5;"></div>
+            </div>
+        </section>
+        <section class="common_group_result">
+            <input type="button" value="тест №1" class="test_number" onclick="Tests(1)">
+            <input type="button" value="тест №2" class="test_number" onclick="Tests(2)">
+            <input type="button" value="тест №3" class="test_number" onclick="Tests(3)">
+            <input type="button" value="тест №4" class="test_number" onclick="Tests(4)">
+            <input type="button" value="тест №5" class="test_number" onclick="Tests(5)">
+            <input type="button" value="тест №6" class="test_number" onclick="Tests(6)">
+            <input type="button" value="тест №7" class="test_number" onclick="Tests(7)">
+            <div id="material" style="width: 800px; height: 500px;flex-grow: 5;"></div>
+        </section>
     </center>
 </body>
 </html>

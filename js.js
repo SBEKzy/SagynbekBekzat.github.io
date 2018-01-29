@@ -1,5 +1,5 @@
 var testes = parseInt(document.getElementById("testes").innerHTML);
-var students= ["ryslan","merei","saken"];
+var students= ["ryslan","merei","arnai","kairat","kyanish","maratova","tokmaganbet","saken","beksyltan","eldos"];
 var mainLine = document.getElementById("mainLine");
 var point = document.getElementsByClassName("point");
 var line = document.getElementsByClassName("line");
