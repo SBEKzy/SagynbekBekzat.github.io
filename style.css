@@ -5,19 +5,20 @@ body {
     background-color: lightyellow;
     border-bottom: 3px dashed slateblue;
     margin: 0;
-    padding: 5px;
+    padding: 30px;
 }
 
 .diagramme-section{
-    background-color: lightcyan;
+    background-color: lightyellow;
     margin: 0;
-    padding: 5px;
-    border-bottom: 3px dashed slateblue;
+    padding: 60px 0;
+    
 }
 
 .common_group_result{
-    padding: 5px;
-    background: lightyellow;
+    padding: 30px;
+    background: lightcyan;
+    border-bottom: 3px dashed slateblue;
 }
 /*table  */
 table {
@@ -66,14 +67,13 @@ td input:hover {
 /*    < /table>      */
 
 .diagramme_button_section{
-    display: flex;
-    justify-content: space-between;
     margin: 20px;
 }
 
 .students_btn{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-right: 20px; 
 }
 

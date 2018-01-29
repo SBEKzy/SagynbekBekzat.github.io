@@ -6,7 +6,7 @@ function Diagramme_show_button(nnn){
 
         function drawChart() {
         var number = nnn;//parseInt(document.getElementsByClassName("s")[0].value);
-        var students= ["ryslan","merei","arnai","kairat","kyanish","maratova","tokmaganbet","saken","beksyltan","eldos"];
+        var students= ["ryslan","merei","arnai","miras","eldos","beksultan","kuat","sabina","eldar","saken"];
         var one_student = document.getElementsByClassName(students[number-1]);
         if(one_student.length == 2){
             var data = google.visualization.arrayToDataTable([
@@ -102,13 +102,13 @@ google.charts.load('current', {'packages':['bar']});
                 ["Руслан", parseInt(one_test[0].value)],
                 ["Мерей", parseInt(one_test[1].value)],
                 ["Арнай", parseInt(one_test[2].value)],
-                ["кайратт", parseInt(one_test[3].value)],
-                ["куаныш", parseInt(one_test[4].value)],
-                ["Сабина", parseInt(one_test[5].value)],
-                ["ток", parseInt(one_test[6].value)],
-                ["Сакен", parseInt(one_test[7].value)],
-                ["Бексултан", parseInt(one_test[8].value)],
-                ["Елдос", parseInt(one_test[9].value)]    
+                ["Мирас", parseInt(one_test[3].value)],
+                ["Елдос", parseInt(one_test[4].value)],
+                ["Бексултан", parseInt(one_test[5].value)],
+                ["Куат", parseInt(one_test[6].value)],
+                ["Сабина", parseInt(one_test[7].value)],
+                ["Елдар", parseInt(one_test[8].value)],
+                ["Сакен", parseInt(one_test[9].value)]    
                 // -------------------------------------------
         ]);
         
